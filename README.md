@@ -2,6 +2,9 @@
 
 Scripts and actions to help maintainers of IBM Quantum Learning content.
 
+> [!CAUTION]
+> This tool has been moved to [Qiskit/documentation](https://github.com/Qiskit/documentation/tree/main/scripts/ibm-quantum-learning-uploader).
+> Once all users have migrated to install from that repo, this will be archived and stop being maintained.
 
 ## Syncing with the content API 
 
