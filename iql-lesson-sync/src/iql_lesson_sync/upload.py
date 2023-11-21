@@ -140,7 +140,7 @@ class API:
             response = requests.post(
                 self.url + "/files",
                 files={"file": (fileobj)},
-                data={"filename": lesson.zip_path.stem},
+                files={"file": (lesson.zip_path.stem, fileobj, "application/zip")},
                 headers=self.auth_header,
             )
         response.raise_for_status()
